@@ -1,0 +1,40 @@
+h1 {
+    color:palevioletred; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 50px;
+}
+p {
+    text-align: center;
+    font-family: fantasy;
+
+}
+.grecia1 { 
+    width: 300px;
+}
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+  }
+  .datos { 
+      align-content: center
+      box-sizing: border-box;
+      display: inline-block;
+    padding: 40px;
+    width: 50%
+  }
+  *{border: 1px solid palevioletred; 
+}
+
+.datos img {
+    align-content: flex-end 
+     width: 300px}
+.datos {
+    background-color: aquamarine
+}
+
+body {background-color: whites}     
