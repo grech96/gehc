@@ -1,7 +1,7 @@
 h1 {
-    color:palevioletred; 
+    color: blueviolet; 
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Courier, monospace;
 }
 img{
     width: 50px;
@@ -9,7 +9,6 @@ img{
 p {
     text-align: center;
     font-family: fantasy;
-
 }
 .grecia1 { 
     width: 300px;
@@ -21,20 +20,29 @@ p {
     border-width: 10px;
   }
   .datos { 
-      align-content: center
+      align-content: center;
       box-sizing: border-box;
       display: inline-block;
     padding: 40px;
-    width: 50%
+    width: 40%; display: inline-block;
   }
-  *{border: 1px solid palevioletred; 
-}
+ 
 
 .datos img {
-    align-content: flex-end 
+    align-content: flex-end;
      width: 300px}
-.datos {
-    background-color: aquamarine
-}
 
-body {background-color: whites}     
+.social {
+        list-style: none;
+        text-align: center;
+      }
+      
+.social li {
+        display: inline-block;
+        margin: 0 20px;
+        padding-top: 50px;
+      }
+      
+.social img {
+        height: 50px;
+      }
